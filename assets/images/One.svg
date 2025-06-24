@@ -1,0 +1,46 @@
+<svg width="62" height="63" viewBox="0 0 62 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_19164_12161)">
+<rect x="1" y="1" width="60" height="60" rx="5.55556" fill="white"/>
+<path d="M29.2224 23.8889H32.778V27.4445H29.2224V23.8889Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.6713 23.9956H29.3291V27.3378H32.6713V23.9956ZM29.2224 23.8889V27.4445H32.778V23.8889H29.2224Z" fill="white"/>
+<path d="M29.2224 20.3334H32.778V23.8889H29.2224V20.3334Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.6713 20.44H29.3291V23.7823H32.6713V20.44ZM29.2224 20.3334V23.8889H32.778V20.3334H29.2224Z" fill="white"/>
+<path d="M29.2224 16.7778H32.778V20.3334H29.2224V16.7778Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.6713 16.8845H29.3291V20.2267H32.6713V16.8845ZM29.2224 16.7778V20.3334H32.778V16.7778H29.2224Z" fill="white"/>
+<path d="M29.2224 31H32.778V34.5556H29.2224V31Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.6713 31.1067H29.3291V34.4489H32.6713V31.1067ZM29.2224 31V34.5556H32.778V31H29.2224Z" fill="white"/>
+<path d="M29.2224 27.4445H32.778V31H29.2224V27.4445Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.6713 27.5511H29.3291V30.8933H32.6713V27.5511ZM29.2224 27.4445V31H32.778V27.4445H29.2224Z" fill="white"/>
+<path d="M29.2224 34.5556H32.778V38.1111H29.2224V34.5556Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.6713 34.6622H29.3291V38.0044H32.6713V34.6622ZM29.2224 34.5556V38.1111H32.778V34.5556H29.2224Z" fill="white"/>
+<path d="M29.2224 38.1111H32.778V41.6666H29.2224V38.1111Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.6713 38.2178H29.3291V41.56H32.6713V38.2178ZM29.2224 38.1111V41.6666H32.778V38.1111H29.2224Z" fill="white"/>
+<path d="M29.2224 41.6666H32.778V45.2222H29.2224V41.6666Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.6713 41.7733H29.3291V45.1155H32.6713V41.7733ZM29.2224 41.6666V45.2222H32.778V41.6666H29.2224Z" fill="white"/>
+<path d="M32.778 41.6666L36.3331 41.6666V45.2222H32.778V41.6666Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M36.2265 41.7733H32.8843V45.1155H36.2265V41.7733ZM32.778 41.6666V45.2222H36.3331V41.6666L32.778 41.6666Z" fill="white"/>
+<path d="M25.6665 41.6666L29.2224 41.6666V45.2222H25.6665V41.6666Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M29.1154 41.7733H25.7732V45.1155H29.1154V41.7733ZM25.6665 41.6666V45.2222H29.2224V41.6666L25.6665 41.6666Z" fill="white"/>
+<path d="M22.1113 41.6666H25.6665V45.2222H22.1113V41.6666Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25.5602 41.7733H22.218V45.1155H25.5602V41.7733ZM22.1113 41.6666V45.2222H25.6665V41.6666H22.1113Z" fill="white"/>
+<path d="M36.3331 41.6666H39.8891V45.2222H36.3331V41.6666Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.7824 41.7733H36.4402V45.1155H39.7824V41.7733ZM36.3331 41.6666V45.2222H39.8891V41.6666H36.3331Z" fill="white"/>
+<path d="M25.6665 16.7778H29.2224V20.3334L25.6665 20.3334V16.7778Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M29.1154 16.8845H25.7732V20.2267H29.1154V16.8845ZM25.6665 16.7778V20.3334L29.2224 20.3334V16.7778H25.6665Z" fill="white"/>
+<path d="M22.1113 16.7778H25.6665V20.3334H22.1113V16.7778Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25.5602 16.8845H22.218V20.2267H25.5602V16.8845ZM22.1113 16.7778V20.3334H25.6665V16.7778H22.1113Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_19164_12161" x="-1.49012e-08" y="0.555556" width="62" height="62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="0.222222" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_19164_12161"/>
+<feOffset dy="0.555556"/>
+<feGaussianBlur stdDeviation="0.388889"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_19164_12161"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_19164_12161" result="shape"/>
+</filter>
+</defs>
+</svg>
