@@ -147,5 +147,20 @@
 	</footer>
 </div>
 
+<script>
+  // Get the current page's query parameters, e.g., "?utm_source=google"
+  var params = window.location.search;
+
+  // Select all <a> tags with the Onelink URL
+  var buttons = document.querySelectorAll('a[href^="https://psp.onelink.me/99G9/o95wb93l"]');
+
+  buttons.forEach(function(button) {
+    // Remove any existing query params from the href
+    var baseUrl = button.href.split('?')[0];
+    // If there are parameters, append them to the URL
+    button.href = params ? baseUrl + params : baseUrl;
+  });
+</script>
+	
 </body>
 </html>
