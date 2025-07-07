@@ -148,18 +148,30 @@
 </div>
 
 <script>
-  // Get the current page's query parameters, e.g., "?utm_source=google"
-  var params = window.location.search;
+  const billboardMap = {
+    rsya: "https://psp.onelink.me/99G9/f1dynluv",
+    poisk: "https://psp.onelink.me/99G9/f5thjkw2",
+    app: "https://psp.onelink.me/99G9/gmij5olq",
+    default: "https://psp.onelink.me/99G9/vxi0bqau" // fallback if no match
+  };
 
-  // Select all <a> tags with the Onelink URL
-  var buttons = document.querySelectorAll('a[href^="https://psp.onelink.me/99G9/o95wb93l"]');
+  // Parse billboard_id from the current URL
+  const params = new URLSearchParams(window.location.search);
+  const billboardId = params.get('billboard_id');
 
-  buttons.forEach(function(button) {
-    // Remove any existing query params from the href
-    var baseUrl = button.href.split('?')[0];
-    // If there are parameters, append them to the URL
-    button.href = params ? baseUrl + params : baseUrl;
+  // Get the correct OneLink based on billboard_id
+  const link = billboardMap[billboardId] || billboardMap.default;
+
+  // Update all download buttons with correct OneLink
+  const buttons = document.querySelectorAll('a[href^="https://psp.onelink.me/99G9"]');
+  buttons.forEach(button => {
+    button.href = link;
   });
+
+  // Optional: track this event for analytics (e.g., Yandex Metrika goal)
+  if (typeof ym === "function" && billboardId) {
+    ym(102972640, 'reachGoal', 'billboard_' + billboardId);
+  }
 </script>
 	
 </body>
