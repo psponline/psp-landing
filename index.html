@@ -155,20 +155,26 @@
     default: "https://psp.onelink.me/99G9/vxi0bqau" // fallback if no match
   };
 
-  // Parse billboard_id from the current URL
-  const params = new URLSearchParams(window.location.search);
+  // Get the full query string from the current URL (e.g. ?billboard_id=19&utm_source=vk)
+  const queryString = window.location.search;
+
+  // Parse billboard_id from the query string
+  const params = new URLSearchParams(queryString);
   const billboardId = params.get('billboard_id');
 
-  // Get the correct OneLink based on billboard_id
-  const link = billboardMap[billboardId] || billboardMap.default;
+  // Choose the correct OneLink
+  const baseLink = billboardMap[billboardId] || billboardMap.default;
 
-  // Update all download buttons with correct OneLink
+  // Append the original query string to the OneLink
+  const fullLink = queryString ? `${baseLink}${baseLink.includes('?') ? '&' : '?'}${queryString.slice(1)}` : baseLink;
+
+  // Replace all AppsFlyer download buttons with full link
   const buttons = document.querySelectorAll('a[href^="https://psp.onelink.me/99G9"]');
   buttons.forEach(button => {
-    button.href = link;
+    button.href = fullLink;
   });
 
-  // Optional: track this event for analytics (e.g., Yandex Metrika goal)
+  // Optional: track in Yandex Metrika
   if (typeof ym === "function" && billboardId) {
     ym(102972640, 'reachGoal', 'billboard_' + billboardId);
   }
