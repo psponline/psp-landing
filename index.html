@@ -174,6 +174,14 @@
     button.href = fullLink;
   });
 
+  // Replace static QR codes with dynamically generated ones for fullLink
+  const qrImages = document.querySelectorAll('.qr-code__image');
+  qrImages.forEach(img => {
+    const size = 200;
+    const encodedLink = encodeURIComponent(fullLink);
+    img.src = `https://api.qrserver.com/v1/create-qr-code/?size=${size}x${size}&data=${encodedLink}`;
+  });
+
   // Optional: track in Yandex Metrika
   if (typeof ym === "function" && billboardId) {
     ym(102972640, 'reachGoal', 'billboard_' + billboardId);
